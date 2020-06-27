@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, intial-scale=1">
+	<title> Layered Collage </title>
+
+	<style>
+		* {box-sizing: border-box;}
+
+		body {
+			background-image: url(img/fairytail.jpg);
+			background-attachment: fixed;
+		}
+
+		.boxLeft img {
+			width: 400px;
+			height: 300px;
+			float: left;
+		}
+		.boxRight img {
+			width: 700px;
+			height: 400px;
+			float: right;
+		}
+		.boxClear img {
+			width: 600px;
+			height: 300px;
+			margin-top: 50px;
+			clear: both;
+
+		}
+		.boxAbsolute video {
+			width: 400px;
+			height: 200px;
+			position: absolute;
+			top: 1000px;
+			left: 150px;
+			z-index: 9;
+		}
+		.boxFixed {
+			height: 115px;
+			width: 100px;
+			margin-left: 550px;
+			bottom: 0;
+			position: fixed;
+			z-index: 10;
+		}
+		.boxSticky {
+			display: block;
+			margin: auto;
+			width: 500px;
+			position: sticky;
+			top: 0;
+			z-index: 8;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="boxLeft">
+		<img src="img/opm_quote.jpg">
+	</div>
+	<div class="boxRight">
+		<img src="img/broly.jpg">
+	</div>
+	<div class="boxClear">
+		<img src="img/L.jpg">
+	</div>
+	<div class="boxAbsolute">
+		<video controls>
+			<source src="vid/deathnote.mp4" type="video/mp4">
+		</video>
+	</div>
+	<div class="boxFixed">
+		<img src="img/joey.jpg">
+	</div>
+	<div class="boxSticky">
+		<img src="img/natsu.jpg">
+	</div>
+</body>
+
+</html>
