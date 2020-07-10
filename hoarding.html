@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Make America Civilized Again</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+		* {
+			/*margin: 0;
+			padding: 0;*/
+			box-sizing: border-box;
+			text-decoration: none;
+			font-family: 'Josefin Sans', sans-serif;
+		}
+
+		body {
+			margin: 0;
+			padding: 0;
+			background-color: #e5e1f9;
+		}
+
+		.wrapper {
+			display: flex;
+			position: relative;
+		}
+
+		.wrapper .sidebar {
+			position: fixed;
+			width: 150px;
+			height: 100%;
+			background-color: #dbf9d9;
+			padding: 30px 0;
+		}
+
+		.wrapper .sidebar img {
+			display: block;
+			margin: auto;
+			margin-top: -30px;
+			width: 150px;
+			height: 108px;
+		}
+
+		.wrapper .sidebar ul {
+			margin: 0;
+			padding: 0;
+		}
+
+		.wrapper .sidebar ul li {
+			margin-top: 25px;
+			padding: 15px;
+			text-align: center;
+			font-size: 20px;
+			list-style: none;
+		}
+
+		.wrapper .sidebar ul li a {
+			color: black;
+			font-weight: 700;
+		}
+
+		.wrapper .sidebar ul li:hover {
+			background-color: #cec1f9;
+		}
+
+		.wrapper .main_content {
+			width: 100%;
+			margin-left: 150px;
+		}
+
+		.wrapper .main_content .header {
+			padding: 30px;
+			background: linear-gradient(#e5e1f9, #dbf9d9);
+			color: #717171;
+			border-bottom: 1px solid #e0e4e8;
+			text-align: center;
+			font-size: 3em;
+		}
+
+		.container {
+			display: flex;
+			flex-direction: row-reverse;
+			justify-content: space-between;
+			justify-content: center;
+		}
+
+		.slides {
+			width: 700px;
+		}
+
+		.info {
+			font-size: 1.2em;
+			line-height: 1.2;
+			width: 400px;
+			/*padding-left: 25px;
+			padding-right: 25px;*/
+			margin: auto;
+			margin-top: 25px;
+			margin-bottom: 25px;
+		}
+
+		/* Slideshow container */
+		.slideshow-container {
+			max-width: 700px;
+		    position: relative;
+		    margin-top: 125px;
+		  	margin-right: 75px;
+		}
+
+		/* Hide the images by default */
+		.mySlides {
+			display: none;
+		}
+
+		/* Next & previous buttons */
+		.prev, .next {
+			cursor: pointer;
+		  	position: absolute;
+		  	top: 50%;
+		  	width: auto;
+		  	margin-top: -22px;
+		  	padding: 16px;
+		  	color: white;
+		  	font-weight: bold;
+		  	font-size: 18px;
+		  	transition: 0.6s ease;
+		  	border-radius: 0 3px 3px 0;
+		  	user-select: none;
+		}
+
+		/* Position the "next button" to the right */
+		.next {
+			right: 0;
+		  	border-radius: 3px 0 0 3px;
+		}
+
+		/* On hover, add a black background color with a little bit see-through */
+		.prev:hover, .next:hover {
+			background-color: rgba(0,0,0,0.8);
+		}
+
+		/* Caption text */
+		.text {
+			color: white;
+		  	font-size: 25px;
+		  	font-weight: 700;
+		  	padding: 8px 12px;
+		  	position: absolute;
+		  	bottom: 8px;
+		  	width: 100%;
+		  	text-align: center;
+		}
+
+		/* The dots/bullets/indicators */
+		.dot {
+			cursor: pointer;
+		  	height: 15px;
+		  	width: 15px;
+		  	margin: 0 2px;
+		  	background-color: #bbb;
+		  	border-radius: 50%;
+		  	display: inline-block;
+		  	transition: background-color 0.6s ease;
+		}
+
+		.dots {
+			margin-right: 75px;
+		}
+
+		.active, .dot:hover {
+			background-color: #717171;
+		}
+
+		/* Fading animation */
+		.fade {
+			-webkit-animation-name: fade;
+		  	-webkit-animation-duration: 1.5s;
+		  	animation-name: fade;
+		  	animation-duration: 1.5s;
+		}
+
+		@-webkit-keyframes fade {
+			from {opacity: .4} 
+		  	to {opacity: 1}
+		}
+
+		@keyframes fade {
+			from {opacity: .4} 
+		  	to {opacity: 1}
+		}
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="sidebar">
+			<img src="img/virus.jpg" alt="Coronavirus">
+			<ul>
+				<li><a href="final.html">It's a Bad Joke</a></li>
+				<li><a href="timeline.html">Timeline</a></li>
+				<li><a href="hoarding.html">Hoarding</a></li>
+				<li><a href="fear.html">Conspiracy?</a></li>
+				<li><a href="#">blank</a></li>
+			</ul>
+		</div>
+
+		<div class="main_content">
+			<div class="header">
+				Hoarding
+			</div>
+			<div class="container">
+				<div class="slides">
+					<div class="slideshow-container">
+						<!-- Full-width images with number and caption text -->
+						<div class="mySlides fade">
+					    	<img src="img/img1.jpg" style="width:100%">
+					    	<div class="text">Black Friday shopping for toilet paper during a global pandemic</div>
+					    </div>
+
+					    <div class="mySlides fade">
+					   	    <img src="img/img2.jpg" style="width:100%">
+					  	    <div class="text"></div>
+					    </div>
+
+					    <div class="mySlides fade">
+					    	<img src="img/img3.jpg" style="width:100%">
+					    	<div class="text">Due to mass buying of food, the elderly and essential workers struggle to find any remaining products</div>
+					    </div>
+
+					  <!-- Next and previous buttons -->
+					  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+					</div>
+					<br>
+					<!-- The dots/circles -->
+					<div class="dots" style="text-align:center">
+					  <span class="dot" onclick="currentSlide(1)"></span> 
+					  <span class="dot" onclick="currentSlide(2)"></span> 
+					  <span class="dot" onclick="currentSlide(3)"></span>
+					</div>
+				</div>
+				<div class="info">
+					<p>As news of a new virus with the potential to affect nations worldiwde spread, fear caused hoards of people to travel to their nearest stores and buy any and all necessities in bulks. Within days, disinfectants and hand sanitizers were sold out and there was a dire need of masks. It was obvious at this point people feared for their lives and were willing to selfishly buy what they deemed important without regarding the needs of others. In addition to cleaning products and masks, a certain product would also be wiped off store shelves and even trend among social media</p>
+					<p>For reasons unknown, many stores had begun to report that people were purchasing large amounts of toilet paper. Although it sounded ridiculous at first, videos and images begun to surface in social media showing these people taking whatever they could, almost as if they were partaking in a Black Friday sale. As children we're taught that adults are wise and mature, but that certainly doesn't seem to be the case when there's videos of them fighting over toilet paper. To make matters worse, they're emptying their local grocery stores making it more difficult for essential workers to shop for food.</p>
+				</div>
+			</div>
+		</div>
+
+		<script>
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		// Next/previous controls
+		function plusSlides(n) {
+  			showSlides(slideIndex += n);
+		}
+
+		// Thumbnail image controls
+		function currentSlide(n) {
+  			showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+  			var i;
+  			var slides = document.getElementsByClassName("mySlides");
+ 			var dots = document.getElementsByClassName("dot");
+ 			if (n > slides.length) {slideIndex = 1} 
+  			if (n < 1) {slideIndex = slides.length}
+  			for (i = 0; i < slides.length; i++) {
+      			slides[i].style.display = "none"; 
+  			}
+  			for (i = 0; i < dots.length; i++) {
+      			dots[i].className = dots[i].className.replace(" active", "");
+  			}
+  			slides[slideIndex-1].style.display = "block"; 
+  			dots[slideIndex-1].className += " active";
+		}
+	</script>
+	</div>
+</body>
+</html>
